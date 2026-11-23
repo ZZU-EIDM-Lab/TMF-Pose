@@ -103,12 +103,7 @@ python test.py --config config/REAL/camera_real.yaml --test_epoch 30
 python test_housecat6d.py --config config/HouseCat6D/housecat6d.yaml --test_epoch 150
 ```
 
-The original evaluation scripts load `epoch_<N>.pt` from these locations (the epoch numbers above are examples; checkpoints are not included):
 
-```text
-log/camera_real/当前最优/epoch_<N>.pt   # NOCS test.py
-log/housecat6d/ckpt/epoch_<N>.pt     # HouseCat6D test_housecat6d.py
-```
 
 ## Results
 
