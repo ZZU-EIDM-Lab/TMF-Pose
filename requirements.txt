@@ -1,0 +1,25 @@
+# TMF-Pose: packages inferred from imports in the original source.
+# Original experiment dependency versions were not included in the archive.
+# This is not a tested/version-locked environment file.
+# Install CUDA-matched PyTorch and torchvision first using pytorch.org.
+
+torch
+torchvision
+numpy
+scipy
+opencv-python
+Pillow
+matplotlib
+tqdm
+PyYAML
+gorilla-core
+tensorboardX
+transformers
+torch-geometric
+setuptools
+
+# Used by the included model/inference.py only:
+# open3d
+
+# PointNet++ CUDA extension, DINOv2 local files, CLIP local model,
+# dataset files, and pretrained checkpoints are not supplied by pip.
