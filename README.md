@@ -134,6 +134,4 @@ The paper reports the following results at the **5° / 2 cm** threshold:
 
 TMF-Pose is developed by modifying and extending the open-source implementation of [AG-Pose](https://github.com/Leeiieeo/AG-Pose). We thank its authors and the developers of the other open-source components used in this project. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attributions.
 
-## License
 
-This project is released under the [MIT License](LICENSE). Original copyright notices and applicable third-party license texts are preserved in [LICENSES/](LICENSES/).
