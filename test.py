@@ -56,7 +56,7 @@ def init():
     cfg.exp_name = exp_name
     cfg.log_dir = log_dir
     os.makedirs(log_dir, exist_ok=True)
-    cfg.ckpt_dir = os.path.join(cfg.log_dir, '当前最优')
+    cfg.ckpt_dir = os.path.join(cfg.log_dir, 'ckpt')
     cfg.gpus = args.gpus
     cfg.test_epoch = args.test_epoch
     cfg.mask_label = args.mask_label
