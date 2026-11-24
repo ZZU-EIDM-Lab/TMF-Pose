@@ -65,7 +65,7 @@ def init():
 
     gorilla.utils.set_cuda_visible_devices(gpu_ids = cfg.gpus)
     logger = get_logger(level_print=logging.INFO, level_save=logging.WARNING, path_file=log_dir+"/test_epoch" + str(cfg.test_epoch)  + "_logger.log")
-    #logger = get_logger(level_print=logging.INFO, level_save=logging.WARNING, path_file=log_dir+"/查询向量设为全test_epoch" + str(cfg.test_epoch)  + "_logger.log")
+   
 
     return logger, cfg
 
