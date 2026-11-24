@@ -88,7 +88,6 @@ if __name__ == "__main__":
     for k in dataloaders.keys():
         dataloaders[k].dataset.reset()
 
-     # 在这里加载第10轮保存的模型权重
     if start_epoch!=1:
         ckpt_path = os.path.join(cfg.ckpt_dir, 'epoch_{}.pt'.format(start_epoch-1))
         if os.path.isfile(ckpt_path):
@@ -110,8 +109,3 @@ if __name__ == "__main__":
     Trainer.solve()
 
     logger.info('\nFinish!\n')
-#python train.py --config config/REAL/camera_real.yaml
-#export TORCH_HOME=/home/sda2/wang/DG-6D-main/torch_hub
-#export TORCH_HOME=/home/sda2/wang/2025/TSG-MMPose/torch_hub
-#source /home/nvme0n1p3/torch_env/bin/activate
-#nohup python train.py --config config/REAL/camera_real.yaml > train.log 2>&1 &
