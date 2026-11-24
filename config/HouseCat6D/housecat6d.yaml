@@ -2,7 +2,7 @@ setting: supervised
 
 train_dataset:
   dataset_name: housecat6d
-  dataset_dir: /home/sda2/wang/2025/data1/Housecat/
+  dataset_dir: /home/sda2/wang/2025/Housecat/
   seq_length: -1  # -1 means full
   img_length: -1
   image_size: 224
@@ -16,7 +16,7 @@ train_dataset:
 test_dataset:
   img_size: 224
   sample_num: 1024
-  dataset_dir: /home/sda2/wang/2025/data1/Housecat/
+  dataset_dir: /home/sda2/wang/2025/Housecat/
   dataset_name: housecat6d
 
 
